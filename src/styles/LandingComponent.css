@@ -1,0 +1,301 @@
+.bar {
+  background-color: rgb(99, 105, 209);
+  border-radius: 8px;
+  width: 1392px;
+  margin: 24px auto 0px;
+  height: 76px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 16px 0px 32px;
+  top: 12px;
+}
+
+.flexOne {
+  background-size: 124% 124%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(99, 105, 209);
+  background-image: url("https://res.cloudinary.com/ddnzqpnvg/image/upload/v1671280111/Logo_me9nlc.svg");
+  margin-right: 340px;
+  margin-left: 10px;
+  padding: 50.62px 65.87px 0.38px 38.13px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.flexTwo,
+.flexThree,
+.flexFour {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: "Neusa Next Pro";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(99, 105, 209);
+}
+
+.flexFive {
+  font-family: "Neusa Next Pro";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(230, 39, 93);
+  padding: 12px 40px;
+  margin-left: 8px;
+  border: 1px rgb(230, 39, 93);
+  border-radius: 10px;
+}
+
+.flexFive .link {
+  color: rgb(255, 255, 255);
+  background-color: rgb(230, 39, 93);
+  text-decoration: none;
+}
+
+.flexFive:hover,
+:focus {
+  background-color: #a11c58;
+  border: 1px #a11c58;
+}
+
+.flexFive .link:hover,
+:focus {
+  background-color: #a11c58;
+}
+
+.hero {
+  padding: 120px;
+  min-height: 513px;
+  background-image: url(https://cdn.supertalent.io/static/media/web-great-talent-at-your-fingertips-c56160fb8e5e1009-1132.webp);
+  background-repeat: no-repeat;
+  background-position: right 91px top;
+  background-size: 566px 489px;
+}
+
+.wrapperOne {
+  margin: 24px 0px 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: "Neusa Next Pro Regular";
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  color: rgb(221, 217, 252);
+  max-width: 500px;
+}
+
+.wrapperTwo {
+  margin: 24px 0px 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: "Neusa Next Pro";
+  font-size: 56px;
+  line-height: 100%;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  max-width: 500px;
+}
+
+.wrapperThree {
+  margin: 24px 0px 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: "Neusa Next Pro Regular";
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  color: rgb(221, 217, 252);
+  max-width: 560px;
+}
+
+.wrapperBtn {
+  font-family: "Neusa Next Pro";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(230, 39, 93);
+  padding: 16px 48px;
+  margin-top: 40px;
+  border: 1px rgb(230, 39, 93);
+  border-radius: 12px;
+  width: 160px;
+}
+
+.NoteDiv {
+  background-color: white;
+  border-radius: 16px;
+  width: 1392px;
+  height: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 90px;
+}
+
+.highlight {
+  color: rgba(39, 39, 39, 1);
+  font-family: "Neusa Next Pro";
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 3.8px;
+  line-height: normal;
+  min-height: 80px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+}
+
+.contentContainer {
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 72px 16px;
+  background: #ffffff;
+  max-width: 1200px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  margin-left: 80px;
+  max-width: 700px;
+}
+
+.left h3 {
+  margin: 0px 0px 24px;
+  padding: 0px;
+  border: 0px;
+  font-family: "Neusa Next Pro";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: rgb(37, 8, 47);
+  background: #ffffff;
+  max-width: 680px;
+}
+
+.paraone {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgb(89, 74, 104);
+  background: #ffffff;
+  max-width: 680px;
+  margin-bottom: 26px;
+}
+
+.paratwo {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgb(89, 74, 104);
+  background: #ffffff;
+  max-width: 600px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+}
+
+.right {
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  padding-left: 60px;
+  padding-right: 18px;
+  margin-left: 36px;
+}
+
+.imgOne {
+  box-shadow: rgb(0 0 0 / 4%) 0px 24px 32px, rgb(0 0 0 / 4%) 0px 16px 24px,
+    rgb(0 0 0 / 4%) 0px 4px 8px, rgb(0 0 0 / 4%) 0px 0px 1px;
+  border-radius: 8px;
+  top: 11%;
+  left: 0px;
+  height: auto;
+  width: 24%;
+  background: #ffffff;
+}
+
+.imgTwo {
+  box-shadow: rgb(0 0 0 / 4%) 0px 24px 32px, rgb(0 0 0 / 4%) 0px 16px 24px,
+    rgb(0 0 0 / 4%) 0px 4px 8px, rgb(0 0 0 / 4%) 0px 0px 1px;
+  border-radius: 8px;
+  bottom: 0px;
+  left: 35%;
+  margin-top: 52px;
+  margin-bottom: -52px;
+  margin-left: 28px;
+  height: auto;
+  width: 24%;
+  background: #ffffff;
+}
+
+.imgThree {
+  box-shadow: rgb(0 0 0 / 4%) 0px 24px 32px, rgb(0 0 0 / 4%) 0px 16px 24px,
+    rgb(0 0 0 / 4%) 0px 4px 8px, rgb(0 0 0 / 4%) 0px 0px 1px;
+  border-radius: 8px;
+  top: 0px;
+  right: 0px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  margin-left: 28px;
+  height: auto;
+  width: 24%;
+  background: #ffffff;
+}
+
+.joinning {
+  padding: 18px 32px;
+  border-radius: 8px;
+  background-color: rgb(173, 252, 249);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.text {
+  padding: 0px;
+  border: 0px;
+  font-family: "Neusa Next Pro";
+  font-size: 24px;
+  text-align: left;
+  font-weight: 700;
+  line-height: 133%;
+  color: rgb(37, 8, 47);
+  margin: 0px 72px;
+  background: rgb(173, 252, 249);
+}
+
+.joinbtn {
+  padding: 12px 48px;
+  font-family: "Neusa Next Pro";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(20, 2, 26);
+  flex-shrink: 0;
+  border-radius: 15px;
+}
